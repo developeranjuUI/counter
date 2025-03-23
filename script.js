@@ -17,7 +17,7 @@ let count = 0;
       updateCount();
       document.getElementById('error').textContent = '';
     } else {
-      document.getElementById('error').textContent = 'Error: Count is already 0';
+      document.getElementById('error').textContent = 'Error : Cannot go below';
       document.getElementById('clear-btn').style.display = 'none';
       document.getElementById('decrement-btn').classList.add('disabled');
     }
@@ -26,6 +26,6 @@ let count = 0;
   function clearCount() {
     count = 0;
     updateCount();
-    document.getElementById('error').textContent = 'Error: Count is already 0';
+    document.getElementById('error').textContent = 'Error : Cannot go below';
     document.getElementById('clear-btn').style.display = 'none';
   }
