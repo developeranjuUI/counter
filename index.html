@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Counter UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Counter using HTML</h1></header>
+  <main>
+    <div class="count">
+        Your current count is :<span id="count">0</span>
+    </div>
+    <hr />
+    <div id="error" class="error"></div>
+    <div class="buttons">
+        <button id="decrement-btn" onclick="decrement()">Decrement</button>
+        <button class="increment-btn" onclick="increment()">Increment</button>
+        <button class="clear-btn" id="clear-btn" onclick="clearCount()">Clear</button>
+    </div>
+  </main>  
+
+<script src="script.js"></script>
+</body>
+</html>
