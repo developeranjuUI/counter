@@ -3,6 +3,7 @@ body {
     background-color: #000;
     color: #fff;
     font-family: "Roboto", sans-serif;
+    padding-left: 30px;
 }
 h1 {
     font-weight: 400;
